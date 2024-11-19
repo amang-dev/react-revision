@@ -3,13 +3,17 @@ import './App.css'
 
 function App() {
 
-let [counter, setCounter] = useState(0)
+let [counter, setCounter] = useState(5)
 
 const addValue =  () =>{
   if(counter === 20){
     return;
   }else{
-    setCounter(counter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+   
   }
 }
 
