@@ -18,3 +18,12 @@ useeffect()
 useid
 custom hook
 
+react router dom
+LINK
+Navlink
+createbrowserrouter
+createroutefromelements
+
+
+useParams
+userloderdata
