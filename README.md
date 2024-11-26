@@ -12,3 +12,9 @@
                -  react element
 components
 props
+
+usecallback()
+useeffect()
+useid
+custom hook
+
