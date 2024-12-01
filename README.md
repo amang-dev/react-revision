@@ -31,3 +31,7 @@ userloderdata
 contextApi
 const UserContext = React.createContext() first create context
 
+first create a context  and export it
+then setup ContextProvider and pass children
+wrap app cmponents to UserContextProvider
+
